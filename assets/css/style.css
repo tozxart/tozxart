@@ -681,6 +681,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  display: none;
 }
 
 .contact .info {
