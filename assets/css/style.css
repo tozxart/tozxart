@@ -1046,3 +1046,41 @@ section {
   background-color: #0a49f6;
   transform: scale(1.1);
 }
+
+@media (max-width: 1199px) {
+  .main-btn {
+    position: absolute;
+    right: 100px;
+   
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .main-btn {
+    position: absolute;
+    right: 450px;
+   
+  }
+}
+@media (max-width: 1000px) {
+  .main-btn {
+    position: absolute;
+    right: 400px;
+   
+  }
+}
+@media (max-width: 800px) {
+  .main-btn {
+    position: absolute;
+    right: 250px;
+   
+  }
+}
+@media (max-width: 500px) {
+  .main-btn {
+    position: absolute;
+    right: 60px;
+   
+  }
+}
