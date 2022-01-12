@@ -41,7 +41,7 @@ body {
       position: absolute;
       opacity: 0;
       top: 9px;
-      transition: 0.7s;
+      transition: 0.7s ease;
   }
     
   .seeMore:hover span {
