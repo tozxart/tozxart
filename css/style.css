@@ -66,7 +66,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: #2e00fff0;
 }
 
 ul,
@@ -109,7 +109,7 @@ ol {
   bottom: 0;
   height: 5px;
   width: 70px;
-  background: #00bfe7;
+  background: #2e00fff0;
   content: "";
 }
 
@@ -144,12 +144,17 @@ ol {
   font-family: "Play", sans-serif;
   font-weight: 700;
   padding: 14px 32px 12px;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
   z-index: 1;
+  margin-left: 54%; 
+bottom: -30px;
+
 }
+P { text-align: center }
+
 .primary-btn:hover:before {
   height: 100%;
   width: 100%;
@@ -164,22 +169,23 @@ ol {
   top: 0;
   height: 30px;
   width: 30px;
-  border-left: 2px solid #00bfe7;
-  border-top: 2px solid #00bfe7;
+  border-left: 2px solid #2e00fff0;
+  border-top: 2px solid #2e00fff0;
   content: "";
   z-index: -1;
   -webkit-transition: all, 0.7s;
   -o-transition: all, 0.7s;
   transition: all, 0.7s;
 }
+
 .primary-btn:after {
   position: absolute;
   right: 0;
   bottom: 0;
   height: 30px;
   width: 30px;
-  border-right: 2px solid #00bfe7;
-  border-bottom: 2px solid #00bfe7;
+  border-right: 2px solid #2e00fff0;
+  border-bottom: 2px solid #2e00fff0;
   content: "";
   z-index: -1;
   -webkit-transition: all, 0.7s;
@@ -190,7 +196,7 @@ ol {
 .site-btn {
   font-size: 15px;
   color: #ffffff;
-  background: #00bfe7;
+  background: #2e00fff0;
   font-family: "Play", sans-serif;
   font-weight: 700;
   border: none;
@@ -358,7 +364,7 @@ ol {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #00bfe7;
+  background: #2e00fff0;
   content: "";
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
@@ -785,7 +791,7 @@ ol {
   margin-right: 10px;
 }
 .latest__slider.owl-carousel .owl-dots button.active {
-  background: #00bfe7;
+  background: #2e00fff0;
 }
 .latest__slider.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
@@ -818,7 +824,7 @@ ol {
 }
 .callto__text a {
   color: #ffffff;
-  background: #00bfe7;
+  background: #2e00fff0;
   font-size: 15px;
   font-weight: 700;
   font-family: "Play", sans-serif;
@@ -937,7 +943,7 @@ ol {
   border: none;
   height: 50px;
   width: 50px;
-  background: #00bfe7;
+  background: #2e00fff0;
   line-height: 50px;
   text-align: center;
   position: absolute;
@@ -955,10 +961,10 @@ ol {
   font-weight: 300;
 }
 .footer__copyright__text i {
-  color: #00bfe7;
+  color: #2e00fff0;
 }
 .footer__copyright__text a {
-  color: #00bfe7;
+  color: #2e00fff0;
 }
 
 /*---------------------
@@ -1048,7 +1054,7 @@ ol {
   margin-right: 10px;
 }
 .testimonial__slider.owl-carousel .owl-dots button.active {
-  background: #00bfe7;
+  background: #2e00fff0;
 }
 .testimonial__slider.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
@@ -1140,7 +1146,7 @@ ol {
   top: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #00bfe7;
+  border: 2px solid #2e00fff0;
   content: "";
   -webkit-transition: all, 0.5s;
   -o-transition: all, 0.5s;
@@ -1491,7 +1497,7 @@ ol {
 }
 .blog__details__quote i {
   font-size: 36px;
-  color: #00bfe7;
+  color: #2e00fff0;
   position: absolute;
   right: 30px;
   bottom: 25px;
@@ -1924,7 +1930,7 @@ ol {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
+    background: #2e00fff0;
   }
 
   .header .container {
@@ -2046,7 +2052,7 @@ ol {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
+    background: #2e00fff0;
   }
 
   .header .container {
