@@ -244,7 +244,7 @@ body {
 [v-cloak] > * {
   display: none;
 }
-.progress {
+.rogress {
   width: 100%;
   margin-top: -15px;
   user-select: none;
@@ -268,7 +268,7 @@ body {
     opacity: 0.7;
   }
 }
-.progress__bar {
+.rogress__bar {
   height: 6px;
   width: 100%;
   cursor: pointer;
@@ -276,7 +276,7 @@ body {
   display: inline-block;
   border-radius: 10px;
 }
-.progress__current {
+.rogress__current {
   height: inherit;
   width: 0%;
   background-color: #a3b3ce;
