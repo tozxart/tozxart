@@ -503,7 +503,7 @@ section {
   text-align: center;
   background: rgba(25, 0, 255, 0.63);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -1038,7 +1038,7 @@ section {
   border-radius: 15px;
   margin-bottom: 40px;
   position: absolute;
-  right: 785px;
+  right: 690px;
   transition: 0.7s ease;
 }
 
