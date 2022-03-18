@@ -12,104 +12,104 @@ new Vue({
         {
         name: "	Anime War | راب مادارا - انمي ناروتو",
         artist: "Biolz",
-        cover: "/mini-player-master/img/madara.jpg",
-        source: "/mini-player-master/mp3/راب مادارا - انمي ناروتو.mp3",
+        cover: "../old web site/mini-player-master/img/madara.jpg",
+        source: "../old web site/mini-player-master/mp3/راب مادارا - انمي ناروتو.mp3",
         url: "https://youtu.be/6VGI1SGt3kA",
         favorited: false
       },
         {
           name: "Anime War | راب انمي ناروتو - ايتاشي",
           artist: "Laytum",
-          cover: "/mini-player-master/img/itachi.jpg",
-          source: "/mini-player-master/mp3/itachi_1.mp3",
+          cover: "../old web site/mini-player-master/img/itachi.jpg",
+          source: "../old web site/mini-player-master/mp3/itachi_1.mp3",
           url: "https://youtu.be/fwToRCx6W6Q",
           favorited: false
         },
         {
           name: "'Permission to Dance' ARABIC VERSION",
           artist: "Biolz",
-          cover: "/mini-player-master/img/ptd.jpg",
-          source: "/mini-player-master/mp3/PTDBiolzArabicVersion_1.mp3",
+          cover: "../old web site/mini-player-master/img/ptd.jpg",
+          source: "../old web site/mini-player-master/mp3/PTDBiolzArabicVersion_1.mp3",
           url: "https://youtu.be/-IpZgE-uu_E",
           favorited: true
         },
         {
           name: " أغنية انمي حزينةأمنيات بعيدة",
           artist: "Biolz",
-          cover: "/mini-player-master/img/sad.jpg",
-          source: "/mini-player-master/mp3/أغنية  أمنيات بعيدة.mp3",
+          cover: "../old web site/mini-player-master/img/sad.jpg",
+          source: "../old web site/mini-player-master/mp3/أغنية  أمنيات بعيدة.mp3",
           url: "https://youtu.be/66dUrX4Q-Po",
           favorited: true
         },
         {
           name: " اغنية أختي الحبيبة فايوليت افرغاردن",
           artist: "Biolz",
-          cover: "/mini-player-master/img/vevergarden.jpg",
-          source: "/mini-player-master/mp3/vevergarden_1.mp3",
+          cover: "../old web site/mini-player-master/img/vevergarden.jpg",
+          source: "../old web site/mini-player-master/mp3/vevergarden_1.mp3",
           url: "https://youtu.be/4iUyoEL8GWo",
           favorited: true
         },
         {
           name: "  الخطايا السبع المميتة النسخة العربية",
           artist: "Biolz",
-          cover: "/mini-player-master/img/nanatsu.jpg",
-          source: "/mini-player-master/mp3/شوق.mp3",
+          cover: "../old web site/mini-player-master/img/nanatsu.jpg",
+          source: "../old web site/mini-player-master/mp3/شوق.mp3",
           url: "https://youtu.be/0xYWM_rZIng",
           favorited: true
         },
         {
           name: " Butter Arabic Version cover النسخة العربية ",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/Butter_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/Butter_1.mp3",
           url: "https://youtu.be/JCDx4wTMFRo",
           favorited: false
         },
         {
           name: "Where Are We Now Arabic version",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/ARABICVERSIONMAMAMOOWhereAreWeNowArabicverc4UEbGxepa8_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/ARABICVERSIONMAMAMOOWhereAreWeNowArabicverc4UEbGxepa8_1.mp3",
           url: "https://youtu.be/c4UEbGxepa8",
           favorited: false
         },
         {
           name: "Palestine القدس لنا",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/PalestineByBiolz_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/PalestineByBiolz_1.mp3",
           url: "https://youtu.be/BDUViv2b-rc",
           favorited: false
         },
         {
           name: " Life Goes On Arabic version",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/LiveCover1n1zJ5zchNg140_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/LiveCover1n1zJ5zchNg140_1.mp3",
           url: "https://youtu.be/N57AIRr-bDo",
           favorited: true
         },
         {
           name: "Dynamite Arabic version",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/Dynamite_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/Dynamite_1.mp3",
           url: "https://youtu.be/704bUbdmr0Q",
           favorited: true
         },
         {
           name: "Faouzia & John Legend - Minefield cover",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/Mimti_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/Mimti_1.mp3",
           url: "https://youtu.be/hanvMxU1e30",
           favorited: true
         },
         {
           name: "black swan arabic version",
           artist: "Biolz",
-          cover: "/mini-player-master/img/biolzhub.jpg",
-          source: "/mini-player-master/mp3/Balck Swan_1.mp3",
+          cover: "../old web site/mini-player-master/img/biolzhub.jpg",
+          source: "../old web site/mini-player-master/mp3/Balck Swan_1.mp3",
           url: "https://youtu.be/ucP6cVICHGM",
           favorited: true
         },
