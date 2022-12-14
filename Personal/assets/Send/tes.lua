@@ -50,13 +50,11 @@ local Special = {
     keys[pair.key] = pair.link
   end
   function stillWorking()
-    LPH_JIT_MAX(function()
       if table.find(Special, shared.key) then
         print("Ready To Go")
       else
         CheckIfStillworking()
       end
-  end)()
   end
   
   
