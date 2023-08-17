@@ -1,0 +1,6 @@
+local WebURLs = {}
+
+WebURLs.url1 = "http://prem.daki.cc:6036/"
+WebURLs.url2 = "https://intrudershub.pro/"
+
+return WebURLs
