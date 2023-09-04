@@ -1,6 +1,7 @@
 local WebURLs = {}
-
-WebURLs.url1 = "http://prem.daki.cc:6036/"
-WebURLs.url2 = "https://intrudershub.pro/"
-
+WebURLs.Reset = "http://prem.daki.cc:6036/"
+WebURLs.usage = "http://prem.daki.cc:6036/"
+WebURLs.Time = "http://prem.daki.cc:6036/"
+WebURLs.Free = "http://prem.daki.cc:6036/"
+WebURLs.Paid = "https://intrudershub.pro/"
 return WebURLs
