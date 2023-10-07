@@ -1,7 +1,8 @@
 local WebURLs = {}
-WebURLs.Reset = "http://prem.daki.cc:6036/"
-WebURLs.usage = "http://prem.daki.cc:6036/"
-WebURLs.Time = "http://prem.daki.cc:6036/"
-WebURLs.Free = "http://prem.daki.cc:6036/"
+WebURLs.Reset = "https://intrudershub.pro/"
+WebURLs.usage = "https://intrudershub.pro/"
+WebURLs.Time = "https://intrudershub.pro/"
+WebURLs.Free = "https://intrudershub.pro/"
 WebURLs.Paid = "https://intrudershub.pro/"
+WebURLs.Copy = "https://intrudershub.pro/"
 return WebURLs
