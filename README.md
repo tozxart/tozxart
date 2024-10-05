@@ -5,7 +5,7 @@
 <h4 align="center">"Creativity and technology, merged together to bring ideas to life."</h4>
 
 <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=your-github-username&color=blueviolet" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=tozxart&color=blueviolet" alt="Profile views" />
 </p>
 
 <p align="center">
