@@ -209,6 +209,27 @@
   /**
    * Initiate portfolio lightbox 
    */
+  const normalizeYouTubeShortsLinks = () => {
+    const shortLinks = select('.portfolio-lightbox[href*="youtube.com/shorts/"]', true);
+
+    shortLinks.forEach((link) => {
+      try {
+        const url = new URL(link.getAttribute('href'));
+        const pathParts = url.pathname.split('/').filter(Boolean);
+        const shortsIndex = pathParts.indexOf('shorts');
+        const videoId = shortsIndex !== -1 ? pathParts[shortsIndex + 1] : '';
+
+        if (videoId) {
+          link.setAttribute('href', `https://www.youtube.com/watch?v=${videoId}`);
+        }
+      } catch (error) {
+        // Ignore malformed URLs and keep the original link.
+      }
+    });
+  }
+
+  normalizeYouTubeShortsLinks();
+
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
