@@ -192,6 +192,78 @@
         layoutMode: "fitRows",
       });
 
+      const priorityTitles = [
+        "PeaksBase Trailer",
+        "اعلان اي جي ايمباير اكاتسكي",
+        "اعلان لوردس موبايل",
+        "Trafi X barryTub",
+        "اعلان كليه الملك عبدالعزيز الحربيه",
+        "اغنية أختي الحبيبة فايوليت افرغاردن",
+        "اغنية فلسطين - في سماك",
+        "Loverboy Eazy",
+        "How You Feel",
+      ];
+
+      const prioritizePortfolioItems = () => {
+        const portfolioItems = select(".portfolio-container .portfolio-item", true);
+
+        if (!portfolioItems.length) {
+          return;
+        }
+
+        portfolioItems.forEach((item, index) => {
+          if (!item.dataset.originalOrder) {
+            item.dataset.originalOrder = String(index);
+          }
+        });
+
+        const sortedItems = [...portfolioItems].sort((a, b) => {
+          const getTitle = (item) =>
+            item.querySelector(".portfolio-info h4")?.textContent?.trim() || "";
+
+          const getPriorityRank = (item) => {
+            const title = getTitle(item);
+            const rank = priorityTitles.indexOf(title);
+            return rank === -1 ? Number.MAX_SAFE_INTEGER : rank;
+          };
+
+          const getCategoryRank = (item) => {
+            if (item.classList.contains("filter-ad")) {
+              return 0;
+            }
+
+            if (item.classList.contains("filter-mc")) {
+              return 1;
+            }
+
+            return 2;
+          };
+
+          const priorityRankDiff = getPriorityRank(a) - getPriorityRank(b);
+
+          if (priorityRankDiff !== 0) {
+            return priorityRankDiff;
+          }
+
+          const categoryRankDiff = getCategoryRank(a) - getCategoryRank(b);
+
+          if (categoryRankDiff !== 0) {
+            return categoryRankDiff;
+          }
+
+          return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+        });
+
+        sortedItems.forEach((item) => {
+          portfolioContainer.appendChild(item);
+        });
+
+        portfolioIsotope.reloadItems();
+      };
+
+      prioritizePortfolioItems();
+      portfolioIsotope.arrange({ filter: "*" });
+
       let portfolioFilters = select("#portfolio-flters li", true);
 
       on(
@@ -204,8 +276,12 @@
           });
           this.classList.add("filter-active");
 
+          const selectedFilter = this.getAttribute("data-filter");
+
+          prioritizePortfolioItems();
+
           portfolioIsotope.arrange({
-            filter: this.getAttribute("data-filter"),
+            filter: selectedFilter,
           });
         },
         true,
