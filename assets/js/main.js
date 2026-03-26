@@ -205,7 +205,10 @@
       ];
 
       const prioritizePortfolioItems = () => {
-        const portfolioItems = select(".portfolio-container .portfolio-item", true);
+        const portfolioItems = select(
+          ".portfolio-container .portfolio-item",
+          true,
+        );
 
         if (!portfolioItems.length) {
           return;
@@ -251,7 +254,9 @@
             return categoryRankDiff;
           }
 
-          return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+          return (
+            Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder)
+          );
         });
 
         sortedItems.forEach((item) => {
